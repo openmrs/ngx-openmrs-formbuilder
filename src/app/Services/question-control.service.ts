@@ -9,6 +9,7 @@ import {
   Validators
 } from '@angular/forms';
 import { ALL_PROPERTIES, Properties } from '../form-editor/models/properties';
+
 @Injectable()
 export class QuestionControlService {
   propertyModels: any = [];

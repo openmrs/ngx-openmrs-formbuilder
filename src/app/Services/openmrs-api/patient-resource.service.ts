@@ -5,6 +5,7 @@ import { SessionStorageService } from '../storage/session-storage.service';
 import { AuthenticationService } from '../authentication/authentication.service';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+
 @Injectable()
 export class PatientResourceService {
   private credentials: any;

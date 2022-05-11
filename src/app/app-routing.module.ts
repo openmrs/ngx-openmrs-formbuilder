@@ -8,6 +8,7 @@ import { SaveFormsGuardService } from './Services/route-guards/save-forms-guard.
 import { AuthGuardService } from './Services/route-guards/auth-guard.service';
 import { UpdateFormsComponent } from './form-editor/update-forms/update-forms.component';
 import { UpdateFormsWizardComponent } from './form-editor/update-forms-wizard/update-forms-wizard.component';
+
 const appRoutes: Routes = [
   { path: '', redirectTo: 'forms', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
