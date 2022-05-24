@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { SessionStorageService } from '../storage/session-storage.service';
 import { Constants } from '../constants';
 import { HttpClient } from '@angular/common/http';
+
 @Injectable()
 export class EncounterTypeService {
   private baseUrl: string;

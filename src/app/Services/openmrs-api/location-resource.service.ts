@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { SessionStorageService } from '../storage/session-storage.service';
 import { AuthenticationService } from '../authentication/authentication.service';
 import { HttpClient } from '@angular/common/http';
+
 @Injectable()
 export class LocationResourceService {
   private baseUrl: string;

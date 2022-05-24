@@ -7,6 +7,7 @@ import { FetchFormDetailService } from '../openmrs-api/fetch-form-detail.service
 import { LocalStorageService } from '../storage/local-storage.service';
 import { BehaviorSubject } from 'rxjs';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+
 @Injectable()
 export class FetchAllFormsService {
   private headers = new HttpHeaders();
